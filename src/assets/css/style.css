@@ -1,0 +1,198 @@
+@import url('main.css');
+.head{
+    background-image: url(../img/header.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.nav_item{
+    font-size: 20px;
+    font-weight:600;
+}
+.nav_item a{
+    color: var(--text-color);
+}
+.banner{
+    background-image: url(../img/header.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head-content{
+    margin-top: 80px;
+}
+.content-write h3{
+    font-size: 30px;
+    font-family: system-ui;
+    border: dashed;
+    padding: 15px;
+    margin: 18px;
+    color: var(--text-color);
+}
+.content-write h2{
+    font-size: 80px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    text-shadow: 4px 3px 0px var(--content-color);
+}
+.content-img img{
+    width: 550px;
+    margin: 25px;
+}
+.sectionCard{
+    margin: 100px 0;
+    padding: 0 10px;
+}
+.tryOffer{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+} 
+.tryOffer p{
+    color: var(--content-color);
+    font-size: 30px;
+    font-family: system-ui;
+    padding: 10px;
+}
+.tryOffer h4{
+    color: var(--content-color);
+    font-size: 30px;
+    padding: 20px 90px;
+}
+.tastyBurger span{
+    background-color: var(--theme-color);
+    font-size: 40px;
+    font-family: fantasy;
+    padding: 15px;
+    margin: 0 auto;
+}
+.chooseTaste h3{
+    margin: 18px;
+    font-size: 70px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    color: var(--text-color);
+    text-shadow: 2px 3px 0px var(--theme-color);
+}
+.chooseTaste p{
+    font-style: italic;
+    font-size: 20px;
+    margin: 25px;
+}
+.orderBurger .card{
+    box-shadow: 4px 4px 3px var(--content-color);
+    cursor: pointer;
+    margin-top: 20px;
+}
+.orderBurger .card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.orderBurger .card .orderImg{
+    padding: 20px;
+    width: 72%;
+    align-self: center;
+}
+.orderBurger .card .card-title{
+    font-family: math;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 15px;
+}
+.orderBurger .card .card-body{
+    padding: 5px;
+}
+.orderBurger .card .card-text{
+    margin: 10px;
+    font-family: system-ui;
+    font-size: 18px;
+}
+button.orderBtn.btn.btn-primary{
+    margin: 20px;
+    padding: 8px 18px;
+    outline: none;
+    border: none;
+    color: var(--content-color);
+    background-color: red;
+    cursor: pointer;
+}
+.sectionEvent{
+    box-shadow: 4px 4px 4px var(--content-color);
+}
+.eventDetails h3{
+    font-size: 40px;
+    margin: 8px;
+    font-family: auto;
+    font-weight: 600;
+}
+.eventDetails h2{
+    margin: 15px;
+    font-size: 60px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    color: var(--text-color);
+    text-shadow: 2px 3px 0px var(--theme-color)
+}
+.eventDetails p {
+    font-size: 18px;
+    font-family: serif;
+}
+.sectionReservation{
+    position: relative;
+}
+.reservationPositonA{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.reservationPositonB{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+.reservationPositonB img{
+    height: 450px;
+}
+.sectionReservation h3{
+    font-size: 30px;
+    font-family: math;
+}
+.sectionReservation h2{
+    font-size: 50px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    color: var(--text-color);
+    text-shadow: 2px 3px 0px var(--theme-color)
+}
+.input{
+    display: inline-grid;
+    width: auto;
+}
+.input input{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.reservationBtn{
+    margin: 10px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    color: var(--content-color);
+    background-color: red;
+    cursor: pointer;
+}
+.footer{
+    background-image: url(../img/footerBurger.png);
+    background-position: center;
+    background-size: cover;
+    color: var(--content-color);
+}
+.footerDetails{
+    font-size: 20px;
+    font-family: system-ui;
+}
+.footerAddress{
+    text-align: right;
+    font-size: 20px;
+}
