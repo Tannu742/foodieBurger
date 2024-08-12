@@ -63,7 +63,7 @@ const Home = () => {
                     </div>
                     <div className='row justify-center'>
                         {
-                            Cards.map((item) => <FoodieCard btn={item.btn} img={item.img} para={item.para} title={item.text} />)
+                            Cards.map((item) => <FoodieCard key={item.id} btn={item.btn} img={item.img} para={item.para} title={item.text} />)
                         }
                     </div>
                 </div>
