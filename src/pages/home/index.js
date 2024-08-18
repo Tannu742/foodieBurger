@@ -14,11 +14,6 @@ const Home = () => {
         { id: 2, img: veggieBurger, text: 'Veggie Delight Burger', para: 'Embrace the vibrant flavors of our Veggie Delight Burger, acelebration of freshness and wholesome goodness.', btn: 'Order now' },
         { id: 3, img: BBQBurger, text: 'BBQ Bacon Burger', para: 'Indulge in a symphony of smoky, savory flavors with our BBQ BaconBurger, grilled and topped with crispy bacon.', btn: 'Order now' }
     ]
-    const TryOut = [
-        { id: 1, head: 'TRY IT OUT', para: 'MOST POPULAR BURGER' },
-        { id: 2, head: 'TRY IT OUT', para: 'MORE FUN MORE TASTE' },
-        { id: 3, head: 'TRY IT OUT', para: 'MORE FUN MORE TASTE' }
-    ]
     return (
         <main>
             <section className='banner'>
