@@ -44,8 +44,31 @@
     margin: 100px 0;
     padding: 0 10px;
 }
-.tryOffer{
+.tryOffer.card{
+    background-image: url(../img/card.png);
+    background-size: cover;
+    width: auto;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tryOffer.card2{
+    background-image: url(../img/card\ \(2\).png);
+    background-size: cover;
     width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.tryOffer.card3{
+    background-image: url(../img/card\ \(3\).png);
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.tryOffer{
     border-radius: 10px;
     margin: 10px;
 } 
@@ -58,7 +81,6 @@
 .tryOffer h4{
     color: var(--content-color);
     font-size: 30px;
-    padding: 20px 90px;
 }
 .tastyBurger span{
     background-color: var(--theme-color);

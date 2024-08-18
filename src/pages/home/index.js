@@ -5,7 +5,6 @@ import veggieBurger from '../../assets/img/veggieBurger.png';
 import BBQBurger from '../../assets/img/BBQBurger.png';
 import event from '../../assets/img/event.png';
 import FoodieCard from '../../components/card';
-import TryOffer from '../../components/TryOffer';
 import reservation from '../../assets/img/reservation.png';
 import reservationA from '../../assets/img/reservation (2).png';
 
@@ -37,11 +36,20 @@ const Home = () => {
             </section>
             <section className='SectionCard'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col'>
-                            {
-                                TryOut.map((item) => { <TryOffer key={item.id} name={item.head} tryOffer={item.para} /> })
-                            }
+                    <div className='row justify-content-between my-4'>
+                        <div className='col-6 tryOffer card'>
+                            <p> TRY IT OUT TODAY </p>
+                            <h4> MOST POPULAR BURGER </h4>
+                        </div>
+                        <div className='col-6'>
+                            <div className='col-5 tryOffer card2'>
+                                <p> TRY IT OUT TODAY </p>
+                                <h4> FRESH & CHILLI </h4>
+                            </div>
+                            <div className='col-5 tryOffer card3'>
+                                <p> TRY IT OUT TODAY </p>
+                                <h4> FRESH & CHILLI </h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,28 +99,28 @@ const Home = () => {
             </section>
             <section className='sectionReservation text-center'>
                 <div className='container'>
-                        <div className='reservationPositonA'>
-                            <img src={reservation} alt="" />
-                        </div>
-                        <h3> RESERVATION </h3>
-                        <h2> BOOK YOUR TABLE </h2>
-                        <div className='reservationPositonB'>
-                            <img src={reservationA} alt="" />
-                        </div>
-                        <div className='row form mx-5 my-5 justify-center'>
-                            <form>
-                                <div className='input col-4'>
-                                    <input type="text" placeholder='NAME'/>
-                                    <input type="date" placeholder='DATE'/>
-                                    <input type="number" placeholder='PEOPLE'/>
-                                </div>
-                                <div className='input col-4'>
-                                    <input type="email" placeholder='EMAIL'/>
-                                    <input type="time" placeholder='TIME'/>
-                                    <button className='reservationBtn'> FIND TABLE </button>
-                                </div>
-                            </form>
-                        </div>
+                    <div className='reservationPositonA'>
+                        <img src={reservation} alt="" />
+                    </div>
+                    <h3> RESERVATION </h3>
+                    <h2> BOOK YOUR TABLE </h2>
+                    <div className='reservationPositonB'>
+                        <img src={reservationA} alt="" />
+                    </div>
+                    <div className='row form mx-5 my-5 justify-center'>
+                        <form>
+                            <div className='input col-4'>
+                                <input type="text" placeholder='NAME' />
+                                <input type="date" placeholder='DATE' />
+                                <input type="number" placeholder='PEOPLE' />
+                            </div>
+                            <div className='input col-4'>
+                                <input type="email" placeholder='EMAIL' />
+                                <input type="time" placeholder='TIME' />
+                                <button className='reservationBtn'> FIND TABLE </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </main >
